@@ -1,0 +1,27 @@
+GEM
+  specs:
+    date (3.2.2)
+    net-http (0.2.2)
+      uri
+    nokogiri (1.13.8-x86_64-linux)
+      racc (~> 1.4)
+    open-uri (0.2.0)
+      stringio
+      time
+      uri
+    racc (1.4.16)
+    stringio (3.0.2)
+    time (0.2.0)
+      date
+    uri (0.11.0)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  net-http (~> 0.2.2)
+  nokogiri (~> 1.13, >= 1.13.8)
+  open-uri (~> 0.2.0)
+
+BUNDLED WITH
+   2.3.21
